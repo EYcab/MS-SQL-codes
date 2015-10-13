@@ -1,0 +1,1 @@
+select TOP 10 percent * from person.Person

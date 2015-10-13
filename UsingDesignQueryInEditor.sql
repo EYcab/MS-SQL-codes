@@ -1,0 +1,2 @@
+SELECT        Person.Person.FirstName, Person.Person.LastName, Person.Person.EmailPromotion
+FROM            Person.BusinessEntity INNER JOIN Person.Person ON Person.BusinessEntity.BusinessEntityID = Person.Person.BusinessEntityID
